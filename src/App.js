@@ -1,11 +1,12 @@
 import React from 'react';
-import './App.css';
+import './index.css';
+import Form from './components/form/Form';
 
 function App() {
   return (
     <>
-    <h1>To-Do List Application</h1>
-      
+      <h1 className='text-center'>To Do App</h1>
+      <Form />
     </>
   );
 }
